@@ -1,4 +1,4 @@
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua") ()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local colors = {
 	SchemeColor = Color3.fromRGB(42, 0, 255),
 	Background = Color3.fromRGB(30, 30, 30),
@@ -135,7 +135,7 @@ vault:NewButton("Get Code", "Teleports the Vault Code to you.", function()
     game.workspace.CodeNote.CFrame = char.HumanoidRootPart.CFrame
 end)
 
-if game.PlaceId == 3851622790 then
+elseif game.PlaceId == 3851622790 then
 
 local rol = win:NewTab("Roles")
 local player = win:NewTab("Bad guy shit")
