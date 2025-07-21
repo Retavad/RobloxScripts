@@ -1,4 +1,4 @@
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua") ()
 local colors = {
 	SchemeColor = Color3.fromRGB(42, 0, 255),
 	Background = Color3.fromRGB(30, 30, 30),
