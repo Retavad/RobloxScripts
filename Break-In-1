@@ -185,43 +185,19 @@ ro:NewButton("Fighter", "Changes your role to fighter", function()
 end)
 
 ro:NewButton("Medic", "Changes your role to medic", function()
-    local args = {
-				[1] = "MedKit",
-				[2] = false,
-				[3] = false
-			}
-			
-			game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("MakeRole"):FireServer(unpack(args))
+			game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole:FireServer("MedKit", true)
 end)
 
 ro:NewButton("Protector", "Changes your role to protector", function()
-               local args = {
-				[1] = "Bat",
-				[2] = false,
-				[3] = false
-			}
-			
-			game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("MakeRole"):FireServer(unpack(args))
+			game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole:FireServer("Bat", true)
 end)
 
 ro:NewButton("Hungry", "Changes your role to hungry", function()
-    local args = {
-				[1] = "Chips",
-				[2] = true,
-				[3] = false
-			}
-			
-			game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("MakeRole"):FireServer(unpack(args))
+			game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole:FireServer("Chips", true)
 end)
 
 ro:NewButton("Stealthy", "Changes your role to stealthy", function()
-    local args = {
-				[1] = "TeddyBloxpin",
-				[2] = true,
-				[3] = false
-			}
-			
-			game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("MakeRole"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole:FireServer("TeddyBloxpin", true)
 end)
-end
+
 --made by Retavad
