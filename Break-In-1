@@ -223,5 +223,5 @@ ro:NewButton("Stealthy", "Changes your role to stealthy", function()
 			
 			game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("MakeRole"):FireServer(unpack(args))
 end)
-
+end)
 --made by Retavad
