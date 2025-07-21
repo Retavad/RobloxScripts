@@ -127,6 +127,22 @@ item:NewButton("Big Pizza", "Spawn a big Pizza!", function()
     game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Pizza3")
 end)
 
+item:NewButton("Car Key", "Spawn a car key!", function()
+    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("CarKey")
+end)
+
+item:NewButton("Swat Gun", "Spawn a swat gun!", function()
+    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("SwatGun")
+end)
+
+item:NewButton("Mouse Louie", "Spawn a mouse named louie!", function()
+    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Louie")
+end)
+
+item:NewButton("Gun", "Spawn a gun!", function()
+    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Gun")
+end)
+
 item:NewButton("Bloxy Pack", "Spawn a Pack of Bloxy Cola, Can only be done once.", function()
     game.ReplicatedStorage.RemoteEvents.BloxyPack:FireServer(1)
 end)
