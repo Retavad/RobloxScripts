@@ -6,9 +6,9 @@ local colors = {
 	TextColor = Color3.fromRGB(255, 255, 255),
 	ElementColor = Color3.fromRGB(75, 75, 75)
 }
-local win = lib.CreateLib("Break in by Retavad", colors)
-
 if game.PlaceId == 4620170611 then
+
+local win = lib.CreateLib("Break in by Retavad", colors)
 
 local tele = win:NewTab("Teleports")
 local player = win:NewTab("Bad guy shit")
@@ -137,6 +137,8 @@ end)
 
 elseif game.PlaceId == 3851622790 then
 
+local win = lib.CreateLib("Break in lobby by Retavad", colors)
+
 local rol = win:NewTab("Roles")
 local player = win:NewTab("Bad guy shit")
 
@@ -200,4 +202,5 @@ ro:NewButton("Stealthy", "Changes your role to stealthy", function()
 	game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole:FireServer("TeddyBloxpin", true)
 end)
 
+end
 --made by Retavad
