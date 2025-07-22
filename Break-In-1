@@ -74,14 +74,13 @@ tp:NewButton("Boss Room", "Teleport to the Sewer Boss Room.", function()
     char.HumanoidRootPart.CFrame = CFrame.new(-39, -287, -1480)
 end)
 
-
-item:NewButton("Apple", "Spawn an Apple.", function()
-    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
+tp:NewButton("Scary Larry's Mansion", "Teleport to the Scary Larry's mansion.", function()
+    char.HumanoidRootPart.CFrame = CFrame.new(-1813, 4967, -2463)
 end)
 
 
-item:NewButton("Pie", "Spawn an pie.", function()
-    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Pie")
+item:NewButton("Apple", "Spawn an Apple.", function()
+    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
 end)
 
 item:NewButton("Cookie", "Spawn a Cookie.", function()
