@@ -11,17 +11,24 @@ if game.PlaceId == 4620170611 then
 local win = lib.CreateLib("Break in by Retavad", colors)
 
 local tele = win:NewTab("Teleports")
-local player = win:NewTab("Bad guy shit")
+local player = win:NewTab("hackz")
 local items = win:NewTab("Items")
 local v = win:NewTab("Vault")
+local cr = win:NewTab("Credits")
 
 local tp = tele:NewSection("Teleport")
-local plr = player:NewSection("Bad guy shit")
+local plr = player:NewSection("hackz")
 local item = items:NewSection("Items")
 local vault = v:NewSection("Vault")
+local cre = win:NewSection("Credits")
 
 local UIS = game:GetService'UserInputService'
 local char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:wait()
+
+cre:NewButton("Discord Server Link(Copying to your clipboard)", "Our discord server", function()
+	setclipboard(tostring("https://discord.gg/Hd4Mfcjk5g")) 
+end)
+
 
 plr:NewSlider("Speed", "Change your speed.", 100, 20, function(t)
 	char.Humanoid.WalkSpeed = t
@@ -135,16 +142,8 @@ item:NewButton("Car Key", "Spawn a car key!", function()
     game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("CarKey")
 end)
 
-item:NewButton("Swat Gun", "Spawn a swat gun!", function()
-    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("SwatGun")
-end)
-
-item:NewButton("Mouse Louie", "Spawn a mouse named louie!", function()
+item:NewButton("Mouse Louie", "Spawn a mouse named Louie!", function()
     game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Louie")
-end)
-
-item:NewButton("Gun", "Spawn a gun!", function()
-    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Gun")
 end)
 
 item:NewButton("Bloxy Pack", "Spawn a Pack of Bloxy Cola, Can only be done once.", function()
@@ -160,13 +159,20 @@ elseif game.PlaceId == 3851622790 then
 local win = lib.CreateLib("Break in lobby by Retavad", colors)
 
 local rol = win:NewTab("Roles")
-local player = win:NewTab("Bad guy shit")
+local player = win:NewTab("hackz")
+local cr = win:NewTab("Credits")
 
 local ro = rol:NewSection("Roles")
-local plr = player:NewSection("Bad guy shit")
+local plr = player:NewSection("hackz")
+local cre = win:NewSection("Credits")
 
 local UIS = game:GetService'UserInputService'
 local char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:wait()
+
+cre:NewButton("Discord Server Link(Copying to your clipboard)", "Our discord server", function()
+	setclipboard(tostring("https://discord.gg/Hd4Mfcjk5g")) 
+end)
+
 
 plr:NewSlider("Speed", "Change your speed.", 100, 20, function(t)
 	char.Humanoid.WalkSpeed = t
