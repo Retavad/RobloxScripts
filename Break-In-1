@@ -14,21 +14,14 @@ local tele = win:NewTab("Teleports")
 local player = win:NewTab("hackz")
 local items = win:NewTab("Items")
 local v = win:NewTab("Vault")
-local cr = win:NewTab("Credits")
 
 local tp = tele:NewSection("Teleport")
 local plr = player:NewSection("hackz")
 local item = items:NewSection("Items")
 local vault = v:NewSection("Vault")
-local cre = cr:NewSection("Credits")
 
 local UIS = game:GetService'UserInputService'
 local char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:wait()
-
-cre:NewButton("Discord Server Link(Copying to your clipboard)", "Our discord server", function()
-	setclipboard(tostring("https://discord.gg/Hd4Mfcjk5g")) 
-end)
-
 
 plr:NewSlider("Speed", "Change your speed.", 100, 20, function(t)
 	char.Humanoid.WalkSpeed = t
@@ -160,19 +153,12 @@ local win = lib.CreateLib("Break in lobby by Retavad", colors)
 
 local rol = win:NewTab("Roles")
 local player = win:NewTab("hackz")
-local cr = win:NewTab("Credits")
 
 local ro = rol:NewSection("Roles")
 local plr = player:NewSection("hackz")
-local cre = cr:NewSection("Credits")
 
 local UIS = game:GetService'UserInputService'
 local char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:wait()
-
-cre:NewButton("Discord Server Link(Copying to your clipboard)", "Our discord server", function()
-	setclipboard(tostring("https://discord.gg/Hd4Mfcjk5g")) 
-end)
-
 
 plr:NewSlider("Speed", "Change your speed.", 100, 20, function(t)
 	char.Humanoid.WalkSpeed = t
