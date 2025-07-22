@@ -79,6 +79,11 @@ item:NewButton("Apple", "Spawn an Apple.", function()
     game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
 end)
 
+
+item:NewButton("Pie", "Spawn an pie.", function()
+    game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Pie")
+end)
+
 item:NewButton("Cookie", "Spawn a Cookie.", function()
     game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cookie")
 end)
