@@ -20,7 +20,7 @@ local tp = tele:NewSection("Teleport")
 local plr = player:NewSection("hackz")
 local item = items:NewSection("Items")
 local vault = v:NewSection("Vault")
-local cre = win:NewSection("Credits")
+local cre = cr:NewSection("Credits")
 
 local UIS = game:GetService'UserInputService'
 local char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:wait()
@@ -164,7 +164,7 @@ local cr = win:NewTab("Credits")
 
 local ro = rol:NewSection("Roles")
 local plr = player:NewSection("hackz")
-local cre = win:NewSection("Credits")
+local cre = cr:NewSection("Credits")
 
 local UIS = game:GetService'UserInputService'
 local char = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:wait()
