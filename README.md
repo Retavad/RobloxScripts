@@ -1,7 +1,7 @@
 Made with love by Retavad!
-Discord: @retavad;
+Discord: @imvoidcore;
 Telegram: @retavad;
-Twitter(X): @retavad0;
+Twitter(X): @newbdaman_rblx;
 
 Report bugs or give a feedback to my 2nd email retavadfeedbacks@gmail.com
 
