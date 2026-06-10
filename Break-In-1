@@ -8,7 +8,7 @@ local colors = {
 }
 if game.PlaceId == 4620170611 then
 
-local win = lib.CreateLib("Break in by Retavad", colors)
+local win = lib.CreateLib("Break in script by Voidcore", colors)
 
 local tele = win:NewTab("Teleports")
 local player = win:NewTab("hackz")
@@ -215,4 +215,4 @@ ro:NewButton("Stealthy", "Changes your role to stealthy", function()
 end)
 
 end
---made by Retavad
+--made by Voidcore
