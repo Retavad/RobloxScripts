@@ -1,6 +1,6 @@
-Made with love by Retavad!
+Made with love by Voidcore!
 Discord: @imvoidcore;
-Telegram: @retavad;
+Telegram: @imvoidcore;
 Twitter(X): @newbdaman_rblx;
 
 Report bugs or give a feedback to my 2nd email retavadfeedbacks@gmail.com
